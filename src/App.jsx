@@ -8,11 +8,10 @@ import WomanMobile from "./assets/illustration-woman-online-mobile.svg";
 
 function App() {
   return (
-    <>
       <body className="bg-gradient-to-b from-[#af67e9] to-[#6565e7] flex justify-center items-center min-h-screen">
         <div className="relative mt-36 mb-12 lg:mt-6">
           <img src={Box} alt="cube" className="absolute cube hidden lg:block" />
-          <div className="bg-white flex h-full text-[#181028] shadow-lg rounded-3xl mx-2 relative lg:overflow-hidden">
+          <div className="bg-white maindiv flex text-[#181028] shadow-lg rounded-3xl mx-2 relative lg:overflow-hidden">
             {/* desktop */}
             <div className="w-72 mr-2 hidden lg:block">
               <img
@@ -51,7 +50,6 @@ function App() {
           </div>
         </div>
       </body>
-    </>
   );
 }
 

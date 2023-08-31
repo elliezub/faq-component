@@ -23,6 +23,10 @@
   width: 1200px;
 }
 
+.maindiv {
+  min-height: 598px;
+}
+
 .womancomputer {
   left: -98px;
   top: 60px;
@@ -43,4 +47,10 @@
 
 .womanmobile {
   width: 292px;
+}
+
+@media (max-width: 1023px) {
+  .maindiv {
+    min-height: 80vh;
+  }
 }
