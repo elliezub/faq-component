@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+* {
+  color: #1d1e35;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+.css-tk735p-MuiButtonBase-root-MuiAccordionSummary-root
+  .MuiAccordionSummary-content {
+  margin-left: 0 !important;
+}
+
+.css-ta84vm-MuiAccordionDetails-root {
+  padding-left: 1px !important;
+}
+
+.css-v84d5j-MuiSvgIcon-root {
+  fill: #f47c57 !important;
+}
+
+.bgpattern {
+  left: -596px;
+  top: -314px;
+  width: 1200px;
+}
+
+.womancomputer {
+  left: -98px;
+  top: 60px;
+  overflow: hidden;
+  width: 550px;
+}
+
+.cube {
+  left: -78px;
+  top: 236px;
+  z-index: 3;
+}
+
+.mobilebg {
+  width: 290px;
+}
