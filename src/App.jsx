@@ -10,9 +10,9 @@ function App() {
   return (
     <>
       <body className="bg-gradient-to-b from-[#af67e9] to-[#6565e7] flex justify-center items-center min-h-screen">
-        <div className="relative mt-16 lg:mt-6">
+        <div className="relative mt-36 mb-12 lg:mt-6">
           <img src={Box} alt="cube" className="absolute cube hidden lg:block" />
-          <div className="bg-white flex w-full h-full text-[#181028] shadow-lg rounded-3xl mx-2 relative lg:overflow-hidden">
+          <div className="bg-white flex h-full text-[#181028] shadow-lg rounded-3xl mx-2 relative lg:overflow-hidden">
             {/* desktop */}
             <div className="w-72 mr-2 hidden lg:block">
               <img
@@ -38,12 +38,12 @@ function App() {
               <img
                 src={MobileBg}
                 alt="mobile pattern"
-                className="absolute mobilebg mx-12"
+                className="absolute mobilebg left-12"
               />
               <img
                 src={WomanMobile}
                 alt="Woman looking at a computer"
-                className="absolute -top-44 m-12"
+                className="absolute -top-32 left-12 womanmobile"
               />
               <h2 className="font-bold text-4xl text-center mb-2 mt-40">FAQ</h2>
               <Accordion TransitionProps={{ unmountOnExit: true }} />
