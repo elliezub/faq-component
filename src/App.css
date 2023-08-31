@@ -31,9 +31,10 @@
 }
 
 .cube {
-  left: -78px;
-  top: 236px;
+  left: -105px;
+  top: 207px;
   z-index: 3;
+  width: 240px;
 }
 
 .mobilebg {
@@ -41,5 +42,5 @@
 }
 
 .womanmobile {
-  width:292px;
+  width: 292px;
 }
