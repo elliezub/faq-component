@@ -66,17 +66,26 @@ export default function CustomizedAccordions() {
           aria-controls="panel1d-content"
           id="panel1d-header"
         >
-          <Typography className="question"  sx={{
-        fontWeight: expanded === "panel1" ? 'bold' : 'normal',
-        color: expanded === "panel1" ? '#1d1e35' : '#4a4b5e',
-        transition: 'color 0.3s',
-        '&:hover': expanded !== "panel1" ? { color: '#f47c57' } : {}
-      }}>How many team members can I invite?</Typography>
+          <Typography
+            className="question"
+            sx={{
+              fontWeight: expanded === "panel1" ? "bold" : "normal",
+              color: expanded === "panel1" ? "#1d1e35" : "#4a4b5e",
+              transition: "color 0.3s",
+              "@media (hover: hover) and (pointer: fine)": {
+                "&:hover": expanded !== "panel1" ? { color: "#f47c57" } : {},
+              },
+            }}
+          >
+            How many team members can I invite?
+          </Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography sx= {{
-            color: "#787887",
-          }}>
+          <Typography
+            sx={{
+              color: "#787887",
+            }}
+          >
             You can invite up to 2 additional users on the Free plan. There is
             no limit on team members for the Premium plan.
           </Typography>
@@ -97,17 +106,26 @@ export default function CustomizedAccordions() {
           aria-controls="panel2d-content"
           id="panel2d-header"
         >
-          <Typography className="question"  sx={{
-        fontWeight: expanded === "panel2" ? 'bold' : 'normal',
-        color: expanded === "panel2" ? '#1d1e35' : '#4a4b5e',
-        transition: 'color 0.3s',
-        '&:hover': expanded !== "panel2" ? { color: '#f47c57' } : {}
-      }}>What is the maximum file upload size?</Typography>
+          <Typography
+            className="question"
+            sx={{
+              fontWeight: expanded === "panel2" ? "bold" : "normal",
+              color: expanded === "panel2" ? "#1d1e35" : "#4a4b5e",
+              transition: "color 0.3s",
+              "@media (hover: hover) and (pointer: fine)": {
+                "&:hover": expanded !== "panel2" ? { color: "#f47c57" } : {},
+              },
+            }}
+          >
+            What is the maximum file upload size?
+          </Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography sx= {{
-            color: "#787887",
-          }}>
+          <Typography
+            sx={{
+              color: "#787887",
+            }}
+          >
             No more than 2GB. All files in your account must fit your allotted
             storage space.
           </Typography>
@@ -128,17 +146,26 @@ export default function CustomizedAccordions() {
           aria-controls="panel3d-content"
           id="panel3d-header"
         >
-          <Typography className="question"  sx={{
-        fontWeight: expanded === "panel3" ? 'bold' : 'normal',
-        color: expanded === "panel3" ? '#1d1e35' : '#4a4b5e',
-        transition: 'color 0.3s',
-        '&:hover': expanded !== "panel3" ? { color: '#f47c57' } : {}
-      }}>How do I reset my password?</Typography>
+          <Typography
+            className="question"
+            sx={{
+              fontWeight: expanded === "panel3" ? "bold" : "normal",
+              color: expanded === "panel3" ? "#1d1e35" : "#4a4b5e",
+              transition: "color 0.3s",
+              "@media (hover: hover) and (pointer: fine)": {
+                "&:hover": expanded !== "panel3" ? { color: "#f47c57" } : {},
+              },
+            }}
+          >
+            How do I reset my password?
+          </Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography sx= {{
-            color: "#787887",
-          }}>
+          <Typography
+            sx={{
+              color: "#787887",
+            }}
+          >
             Click “Forgot password” from the login page or “Change password”
             from your profile page. A reset link will be emailed to you.
           </Typography>
@@ -159,17 +186,26 @@ export default function CustomizedAccordions() {
           aria-controls="panel4d-content"
           id="panel4d-header"
         >
-          <Typography className="question"  sx={{
-        fontWeight: expanded === "panel4" ? 'bold' : 'normal',
-        color: expanded === "panel4" ? '#1d1e35' : '#4a4b5e',
-        transition: 'color 0.3s',
-        '&:hover': expanded !== "panel4" ? { color: '#f47c57' } : {}
-      }}>Can I cancel my subscription?</Typography>
+          <Typography
+            className="question"
+            sx={{
+              fontWeight: expanded === "panel4" ? "bold" : "normal",
+              color: expanded === "panel4" ? "#1d1e35" : "#4a4b5e",
+              transition: "color 0.3s",
+              "@media (hover: hover) and (pointer: fine)": {
+                "&:hover": expanded !== "panel4" ? { color: "#f47c57" } : {},
+              },
+            }}
+          >
+            Can I cancel my subscription?
+          </Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography sx= {{
-            color: "#787887",
-          }}>
+          <Typography
+            sx={{
+              color: "#787887",
+            }}
+          >
             Yes! Send us a message and we’ll process your request no questions
             asked.
           </Typography>
@@ -191,17 +227,26 @@ export default function CustomizedAccordions() {
           aria-controls="panel5d-content"
           id="panel5d-header"
         >
-          <Typography className="question" sx={{
-        fontWeight: expanded === "panel5" ? 'bold' : 'normal',
-        color: expanded === "panel5" ? '#1d1e35' : '#4a4b5e',
-        transition: 'color 0.3s',
-        '&:hover': expanded !== "panel5" ? { color: '#f47c57' } : {}
-      }}>Do you provide additional support?</Typography>
+          <Typography
+            className="question"
+            sx={{
+              fontWeight: expanded === "panel5" ? "bold" : "normal",
+              color: expanded === "panel5" ? "#1d1e35" : "#4a4b5e",
+              transition: "color 0.3s",
+              "@media (hover: hover) and (pointer: fine)": {
+                "&:hover": expanded !== "panel5" ? { color: "#f47c57" } : {},
+              },
+            }}
+          >
+            Do you provide additional support?
+          </Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography sx= {{
-            color: "#787887",
-          }}>
+          <Typography
+            sx={{
+              color: "#787887",
+            }}
+          >
             Chat and email support is available 24/7. Phone lines are open
             during normal business hours.
           </Typography>
