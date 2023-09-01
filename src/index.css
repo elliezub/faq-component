@@ -1,3 +1,60 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+* {
+  color: #1d1e35;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+.css-tk735p-MuiButtonBase-root-MuiAccordionSummary-root
+  .MuiAccordionSummary-content {
+  margin-left: 0 !important;
+}
+
+.css-ta84vm-MuiAccordionDetails-root {
+  padding-left: 1px !important;
+}
+
+.css-v84d5j-MuiSvgIcon-root {
+  fill: #f47c57 !important;
+}
+
+.bgpattern {
+  left: -581px;
+  top: -314px;
+  width: 1200px;
+}
+
+.maindiv {
+  min-height: 598px;
+}
+
+.womancomputer {
+  left: -98px;
+  top: 60px;
+  overflow: hidden;
+  width: 550px;
+}
+
+.cube {
+  left: -105px;
+  top: 212px;
+  z-index: 3;
+  width: 233px;
+}
+
+.mobilebg {
+  width: 290px;
+}
+
+.womanmobile {
+  width: 292px;
+}
+
+@media (max-width: 1023px) {
+  .maindiv {
+    min-height: 80vh;
+  }
+}
