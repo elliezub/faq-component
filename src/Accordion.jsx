@@ -58,8 +58,8 @@ export default function CustomizedAccordions() {
             key={item.title}
             className="rounded-t-lg"
             sx={{ border: "0px" }}
-            expanded={expanded === item.id}
-            onChange={handleChange(item.id)}
+            expanded={expanded === item.panel}
+            onChange={handleChange(item.panel)}
           >
             <AccordionSummary
               sx={{
@@ -67,18 +67,18 @@ export default function CustomizedAccordions() {
                 borderBottom: "1px solid #e5e7eb",
                 padding: "0",
               }}
-              aria-controls="panel1d-content"
-              id="panel1d-header"
+              aria-controls={`${item.panel}d-content`}
+              id={`${item.panel}d-header`}
             >
               <Typography
                 className="question"
                 sx={{
-                  fontWeight: expanded === "panel1" ? "bold" : "normal",
-                  color: expanded === "panel1" ? "#1d1e35" : "#4a4b5e",
+                  fontWeight: expanded === item.panel ? "bold" : "normal",
+                  color: expanded === item.panel ? "#1d1e35" : "#4a4b5e",
                   transition: "color 0.3s",
                   "@media (hover: hover) and (pointer: fine)": {
                     "&:hover":
-                      expanded !== "panel1" ? { color: "#f47c57" } : {},
+                      expanded !== item.panel ? { color: "#f47c57" } : {},
                   },
                 }}
               >
@@ -86,11 +86,7 @@ export default function CustomizedAccordions() {
               </Typography>
             </AccordionSummary>
             <AccordionDetails>
-              <Typography
-                sx={{
-                  color: "#787887",
-                }}
-              >
+              <Typography className="text-[#787887]">
                 {item.description}
               </Typography>
             </AccordionDetails>
